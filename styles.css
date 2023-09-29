@@ -17,6 +17,19 @@
    border-bottom: 4px solid #fdb367;
  }
 
+ figure {
+  margin: 0;
+  
+ }
+
+ .banner {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  filter: brightness(95%);
+  border-bottom: 4px solid #fdb367;
+ } 
+
  h1 {
   font-family: roboto;
   animation-name: color;
@@ -79,6 +92,7 @@
    height: 300px;
    object-fit: cover;
    border-radius: 10px;
+   
  }
 
  .gallery::after {
@@ -89,6 +103,7 @@
  a:hover {
   animation-name: scale;
   animation-duration: 5s;
+  filter: contrast(110%)
  }
 
  @keyframes scale {
