@@ -91,8 +91,7 @@
    max-width: 350px;
    height: 300px;
    object-fit: cover;
-   border-radius: 10px;
-   
+   border-radius: 10px;  
  }
 
  .gallery::after {
@@ -103,7 +102,7 @@
  a:hover {
   animation-name: scale;
   animation-duration: 5s;
-  filter: contrast(110%)
+  filter: contrast(130%)
  }
 
  @keyframes scale {
